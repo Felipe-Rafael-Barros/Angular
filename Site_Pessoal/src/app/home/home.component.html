@@ -1,39 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Portfólio - Felipe Barros</title>
+  
 </head>
+
 <body>
-    
-<ul class="options_list">
-    <li>IMAGENS DAS PLATAFORMAS</li>
-    <ul class="second_options_list">
-    <li><a routerLink="/home">INÍCIO</a></li>
-    <li><a routerLink="/about">SOBRE MIM</a></li>
-    <li><a routerLink="/projects">PROJETOS</a></li>
-    <li><a routerLink="/contacts">CONTATO</a></li>
-    </ul>
-</ul>
+    <header>
 
-<div class="personal_information">
-    <ul class="list_information">
-        <li>
-            <ul>
-                <li>Felipe Barros</li>
-                <li>Web and Software Developer</li>
-            </ul>
-        </li>
-        <li><img src="" alt="Banner da Home" width="100%">
+        <nav>
+            <div>
+                <a href="https://www.dio.me/" target="_blank">
+                    <img src="assets/images/DIO.png" alt="Plataforma DIO" class="logo-img">
+                </a>
+            </div>
+            
         
-    </ul>
+            <ul class="nav-list">
+                <li><a routerLink="/home" >Home</a></li>
+                <li><a routerLink="/about" >About</a></li>
+                <li><a routerLink="/projects" >Portfolio</a></li>
+                <li><a routerLink="/contacts" >Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-</div>
-
-
-
-    
+    <main>
+        <section class="personal-info">
+            <div class="info-text">
+                <h1>Felipe Barros</h1>
+                <h4 >Web and Software Developer</h4>
+            </div>
+            
+            <div class="profile-image-container">
+                <img src="assets/images/euIA.png" alt="Felipe Barros" class="profile-img" loading="lazy">
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>

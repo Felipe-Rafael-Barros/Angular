@@ -1,15 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
 
-body {  
-    font-family: "Clarkson", Helvetica, sans-serif;
-    background: #07070c
+body {
+    font-family: 'Inter', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(
+    to right,
+    #04090e,     /* Preto puro */
+    #020407,     /* Quase preto */
+    #010305
+  );
+    color: #ffffff;
 
-  }
 
-ul{
-    
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+
     list-style-type: none;
-    align-items: center; 
-    justify-content: center;
-    gap: 20px;
+    align-items: last baseline;
+    gap: 70px;
+    padding: 20px;
+    margin-left: 1000px;
+    font-size: 10px;
+    
+
+}
+
+a {
+    color: #ffffff;
+    /* Verde - Cor padrão do link */
+    text-decoration: none;
+    /* Remove sublinhado */
+    font: size 10px;
 }

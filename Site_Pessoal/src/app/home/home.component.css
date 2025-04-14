@@ -1,32 +1,25 @@
-body {  
-    font-family: "Clarkson", Helvetica, sans-serif;
-    background: #07070c
-
-  }
-  a {
-    color: #ffffff; /* Verde - Cor padrão do link */
-    text-decoration: none; /* Remove sublinhado */
-    font: size 10px;
-  }
-  
-    .options_list { 
-
-    /* parte de transformar em colunas*/
-    display: flex; 
-    flex-wrap: wrap; 
-    padding: 20px;
-    gap: 200px;
-
-    border-width: 20px;
+body {
+  overflow: hidden;
+  /*Sem Scroll*/
+}
 
 
-    /*Tirando as marcações de pontos*/
-    
 
-    /*Estética das lentras */
-    font-family: "Clarkson", Helvetica, sans-serif;
-    /* Opções esteticas extras*/
-    background-color: rgb(0, 0, 0);
-  }
+.logo-img {
+  width: 80px;
+  height: auto;
+}
 
- 
+.personal-info{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.info-text{
+  padding: 300px;
+}
+.profile-img{
+  width: 120%;
+  height: auto;
+
+}
