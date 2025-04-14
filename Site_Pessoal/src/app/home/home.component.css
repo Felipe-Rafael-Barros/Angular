@@ -1,6 +1,6 @@
 body {  
     font-family: "Clarkson", Helvetica, sans-serif;
-    background: radial-gradient(circle at center, #2600ff,#000000)
+    background: #07070c
 
   }
   a {
@@ -16,13 +16,12 @@ body {
     flex-wrap: wrap; 
     padding: 20px;
     gap: 200px;
-    align-items: center; 
-    justify-content: center;
+
     border-width: 20px;
 
 
     /*Tirando as marcações de pontos*/
-    list-style-type: none;
+    
 
     /*Estética das lentras */
     font-family: "Clarkson", Helvetica, sans-serif;
@@ -30,16 +29,4 @@ body {
     background-color: rgb(0, 0, 0);
   }
 
-  .personal_information{
-    display: flex; 
-    flex-wrap: wrap; 
-    max-width: 1500px;
-    align-items: center; 
-    justify-content: center;
-    border-width: 10px;
-    color: #ffffff;
-  }
-
-  .list_information {
-    list-style-type: none;
-  }
+ 

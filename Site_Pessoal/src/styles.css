@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {  
+    font-family: "Clarkson", Helvetica, sans-serif;
+    background: #07070c
+
+  }
+
+ul{
+    
+    list-style-type: none;
+    align-items: center; 
+    justify-content: center;
+    gap: 20px;
+}
