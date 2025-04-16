@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-    font-family: 'Inter', 'Helvetica Neue', sans-serif;
+    font-family: Comic Sans MS, Comic Sans, cursive;
     background: linear-gradient(
     to right,
     #04090e,     /* Preto puro */
@@ -22,15 +22,13 @@ ul {
     gap: 70px;
     padding: 20px;
     margin-left: 1000px;
-    font-size: 10px;
+    font-size: 12px;
     
 
 }
 
 a {
     color: #ffffff;
-    /* Verde - Cor padrão do link */
     text-decoration: none;
-    /* Remove sublinhado */
     font: size 10px;
 }
